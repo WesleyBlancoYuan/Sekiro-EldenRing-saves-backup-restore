@@ -1,6 +1,6 @@
 # Sekiro/Elden Ring save file backup/restore
 Scripts of Windows CMD batch and bash to backup and restore save files of the games:
- - *Sekiro: Shadoes Die Twice*
+ - *Sekiro: Shadows Die Twice*
  - *Elden Ring*
 
 
@@ -8,6 +8,13 @@ Scripts of Windows CMD batch and bash to backup and restore save files of the ga
 A command-line based user interface is provided for both the backup and restore tool 
  - backup: type the file name you want to copy to the destination; Unicode characters(CJK for example) allowed, if font supports them. If file with same name exists, will prompt to let you choose to overwrite or abort.
  - restore: the list of save files are marked with nubmers for user to choose the save file to restore/backup. 
+
+Backup UI(.bat in cmd.exe):
+![image](https://github.com/user-attachments/assets/b7779bd8-8c4b-4524-bae9-37f173dd264a)
+
+Restore UI(bash script in GitBash):
+![image](https://github.com/user-attachments/assets/5731a68b-2bf8-430e-a295-44d2af8ce3de)
+
 
 Confirmation is needed when restoring and overwriting; if timed out without user confirmation, nothing is done and user can choose again. 
 

@@ -1,3 +1,5 @@
+@echo OFF
+
 REM    Copyright (C) 2022  WesleyBlancoYuan
 REM
 REM    This program is free software: you can redistribute it and/or modify
@@ -12,7 +14,7 @@ REM    GNU General Public License for more details.
 REM
 REM    You should have received a copy of the GNU General Public License
 REM    along with this program.  If not, see <http://www.gnu.org/licenses/>.
-@echo OFF
+
 echo:
 echo ==================================================
 echo ==================================================
